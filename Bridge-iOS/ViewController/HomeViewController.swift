@@ -10,14 +10,23 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    func presentToLoginView() {
+        let viewIdentifier: String = "LoginViewController"
+        
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: viewIdentifier) as? LoginViewController
+        {
+            self.present(vc, animated: false, completion: nil)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        presentToLoginView()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
