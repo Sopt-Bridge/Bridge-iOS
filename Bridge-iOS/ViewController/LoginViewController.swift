@@ -9,7 +9,21 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
+    // MARK:- IBAction methods
+    @IBAction func didClickedBackButton(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func didClickedGoogleButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func didClickedFacebookButton(_ sender: UIButton) {
+    
+    }
+    
+    
+    // MARK:- Override methdos
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,16 +34,4 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
