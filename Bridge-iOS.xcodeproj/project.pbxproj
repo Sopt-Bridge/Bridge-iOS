@@ -13,6 +13,8 @@
 		A57D504320E7C4B1002967CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57D504220E7C4B1002967CC /* Assets.xcassets */; };
 		A57D504620E7C4B1002967CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57D504420E7C4B1002967CC /* LaunchScreen.storyboard */; };
 		A5B0440120E898F900755F3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0440020E898F900755F3E /* LoginViewController.swift */; };
+		A5B0440820E8A1FA00755F3E /* UIImageNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0440720E8A1FA00755F3E /* UIImageNavigationItem.swift */; };
+		A5B0440A20E8A48C00755F3E /* UIShadowNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0440920E8A48C00755F3E /* UIShadowNavigationBar.swift */; };
 		A5E17D8B20E871FB0059ADBB /* ContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8A20E871FB0059ADBB /* ContentsViewController.swift */; };
 		A5E17D8D20E872070059ADBB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8C20E872070059ADBB /* LibraryViewController.swift */; };
 		A5E17D8F20E872170059ADBB /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8E20E872170059ADBB /* RequestViewController.swift */; };
@@ -27,6 +29,8 @@
 		A57D504520E7C4B1002967CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A57D504720E7C4B1002967CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5B0440020E898F900755F3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A5B0440720E8A1FA00755F3E /* UIImageNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageNavigationItem.swift; sourceTree = "<group>"; };
+		A5B0440920E8A48C00755F3E /* UIShadowNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowNavigationBar.swift; sourceTree = "<group>"; };
 		A5E17D8A20E871FB0059ADBB /* ContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsViewController.swift; sourceTree = "<group>"; };
 		A5E17D8C20E872070059ADBB /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		A5E17D8E20E872170059ADBB /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 		A57D503A20E7C4B0002967CC /* Bridge-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				A5B0440220E89FE100755F3E /* Util */,
 				A5E17D8720E86EE50059ADBB /* Asset */,
 				A5E17D8920E86EF40059ADBB /* Storyboard */,
 				A5E17D8820E86EEC0059ADBB /* ViewController */,
@@ -69,6 +74,23 @@
 				A57D504720E7C4B1002967CC /* Info.plist */,
 			);
 			path = "Bridge-iOS";
+			sourceTree = "<group>";
+		};
+		A5B0440220E89FE100755F3E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A5B0440420E8A00000755F3E /* UI */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A5B0440420E8A00000755F3E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A5B0440720E8A1FA00755F3E /* UIImageNavigationItem.swift */,
+				A5B0440920E8A48C00755F3E /* UIShadowNavigationBar.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		A5E17D8720E86EE50059ADBB /* Asset */ = {
@@ -177,6 +199,8 @@
 				A5E17D8F20E872170059ADBB /* RequestViewController.swift in Sources */,
 				A5E17D8D20E872070059ADBB /* LibraryViewController.swift in Sources */,
 				A5E17D8B20E871FB0059ADBB /* ContentsViewController.swift in Sources */,
+				A5B0440820E8A1FA00755F3E /* UIImageNavigationItem.swift in Sources */,
+				A5B0440A20E8A48C00755F3E /* UIShadowNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
