@@ -54,14 +54,38 @@
 		A57D503A20E7C4B0002967CC /* Bridge-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				A5E17D8920E86EF40059ADBB /* Storyboard */,
+				A5E17D8820E86EEC0059ADBB /* ViewController */,
+				A5E17D8720E86EE50059ADBB /* Asset */,
 				A57D503B20E7C4B0002967CC /* AppDelegate.swift */,
-				A57D503D20E7C4B0002967CC /* ViewController.swift */,
-				A57D503F20E7C4B0002967CC /* Main.storyboard */,
-				A57D504220E7C4B1002967CC /* Assets.xcassets */,
-				A57D504420E7C4B1002967CC /* LaunchScreen.storyboard */,
 				A57D504720E7C4B1002967CC /* Info.plist */,
 			);
 			path = "Bridge-iOS";
+			sourceTree = "<group>";
+		};
+		A5E17D8720E86EE50059ADBB /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				A57D504220E7C4B1002967CC /* Assets.xcassets */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		A5E17D8820E86EEC0059ADBB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A57D503D20E7C4B0002967CC /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A5E17D8920E86EF40059ADBB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A57D503F20E7C4B0002967CC /* Main.storyboard */,
+				A57D504420E7C4B1002967CC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
