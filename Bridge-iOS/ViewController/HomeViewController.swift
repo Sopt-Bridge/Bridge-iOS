@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  Bridge-iOS
 //
-//  Created by 김덕원 on 2018. 6. 30..
+//  Created by 김덕원 on 2018. 7. 1..
 //  Copyright © 2018년 codevillain. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,4 +22,3 @@ class ViewController: UIViewController {
 
 
 }
-
