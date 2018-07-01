@@ -23,9 +23,9 @@ class UIShadowNavigationBar: UINavigationBar {
         }
     }
     
-    @IBInspectable var shadowRadius: Float = 2.0 {
+    @IBInspectable var shadowRadius: CGFloat = 2.0 {
         didSet {
-            self.layer.shadowRadius = CGFloat(self.shadowRadius)
+            self.layer.shadowRadius = self.shadowRadius
         }
     }
     
@@ -37,10 +37,10 @@ class UIShadowNavigationBar: UINavigationBar {
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
-        self.layer.masksToBounds = false
+        self.clipsToBounds = true
         self.layer.shadowColor = self.shadowColor.cgColor
         self.layer.shadowOpacity = self.shadowOpacity
-        self.layer.shadowRadius = CGFloat(self.shadowRadius)
+        self.layer.shadowRadius = self.shadowRadius
         self.layer.shadowOffset = self.shadowOffset
     }
 }
