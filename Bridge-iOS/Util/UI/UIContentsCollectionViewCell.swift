@@ -10,4 +10,8 @@ import UIKit
 
 class UIContentsCollectionViewCell: UICollectionViewCell {
     
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        self.clipsToBounds = false
+    }
 }
