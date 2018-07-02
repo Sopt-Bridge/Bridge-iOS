@@ -19,9 +19,16 @@ class Bridge_iOSTests: XCTestCase {
         super.tearDown()
     }
     
-    func testCustomAscendingListSort() {
-//        var stringList: [String] = ["A", "B", "C", "D"]
+    func testLoop() {
         var stringList: [String] = ["A", "B", "C", "D", "E"]
+        for i in 0 ..< stringList.count {
+            let index: Int = (i + 1) % stringList.count
+            print(stringList[index])
+        }
+    }
+    
+    func testCustomAscendingListSort() {
+        var stringList: [String] = ["A", "B", "C", "D"]
         
         print("Befor sort: \(stringList)")
         for i in stride(from: stringList.count, to: 1, by: -1) {
@@ -30,8 +37,13 @@ class Bridge_iOSTests: XCTestCase {
             print("Count: \(i), List: \(stringList)")
         }
         print("After sort: \(stringList)")
-//        XCTAssert(stringList == ["D", "A", "B", "C"])
-        XCTAssert(stringList == ["E", "A", "B", "C", "D"])
+        XCTAssert(stringList == ["D", "A", "B", "C"])
+        
+        for i in stride(from: stringList.count, to: 1, by: -1) {
+            let index: Int = i % (stringList.count)
+            (stringList[i - 1], stringList[index]) = (stringList[index], stringList[i - 1])
+            print("Count: \(i), List: \(stringList)")
+        }
     }
     
     func testCustomDescendingListSort() {
