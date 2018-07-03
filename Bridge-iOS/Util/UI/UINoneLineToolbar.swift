@@ -25,7 +25,7 @@ class UINoneLineToolbar: UIToolbar {
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
-        self.clipsToBounds = true
+        self.clipsToBounds = false
         self.layer.borderWidth = self.borderWidth
         self.layer.borderColor = self.borderColor.cgColor
     }
