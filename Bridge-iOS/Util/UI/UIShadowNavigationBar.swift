@@ -37,7 +37,7 @@ class UIShadowNavigationBar: UINavigationBar {
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
-        self.clipsToBounds = true
+        self.clipsToBounds = false
         self.layer.shouldRasterize = true
         self.layer.shadowColor = self.shadowColor.cgColor
         self.layer.shadowOpacity = self.shadowOpacity
