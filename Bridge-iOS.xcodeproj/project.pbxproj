@@ -12,10 +12,37 @@
 		A57D504120E7C4B0002967CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57D503F20E7C4B0002967CC /* Main.storyboard */; };
 		A57D504320E7C4B1002967CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57D504220E7C4B1002967CC /* Assets.xcassets */; };
 		A57D504620E7C4B1002967CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57D504420E7C4B1002967CC /* LaunchScreen.storyboard */; };
+		A5B0440120E898F900755F3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0440020E898F900755F3E /* LoginViewController.swift */; };
+		A5B0440820E8A1FA00755F3E /* UIImageNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0440720E8A1FA00755F3E /* UIImageNavigationItem.swift */; };
+		A5B0440A20E8A48C00755F3E /* UIShadowNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0440920E8A48C00755F3E /* UIShadowNavigationBar.swift */; };
+		A5B0440C20E8B57400755F3E /* UINoneLineToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0440B20E8B57400755F3E /* UINoneLineToolbar.swift */; };
+		A5B0441620E9869B00755F3E /* Bridge_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0441520E9869B00755F3E /* Bridge_iOSTests.swift */; };
+		A5B0441E20EA49AC00755F3E /* UIContentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0441D20EA49AC00755F3E /* UIContentsCollectionViewCell.swift */; };
+		A5B0442220EA50C200755F3E /* UIContentsOuterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0442120EA50C200755F3E /* UIContentsOuterView.swift */; };
+		A5B0442420EA89B400755F3E /* UICustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0442320EA89B400755F3E /* UICustomTabBarItem.swift */; };
+		A5B0442720EAB0BB00755F3E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442620EAB0BB00755F3E /* Bolts.framework */; };
+		A5B0442920EAB0D000755F3E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442820EAB0D000755F3E /* FBSDKCoreKit.framework */; };
+		A5B0442B20EAB0D700755F3E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442A20EAB0D700755F3E /* FBSDKLoginKit.framework */; };
+		A5B0442F20EAB0F800755F3E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442E20EAB0F800755F3E /* FBSDKShareKit.framework */; };
+		A5B0443920EAF89800755F3E /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5B0443820EAF89800755F3E /* GoogleSignIn.bundle */; };
+		A5B0443E20EAF8F800755F3E /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0443C20EAF8F800755F3E /* GoogleSignIn.framework */; };
+		A5B0443F20EAF8F800755F3E /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0443D20EAF8F800755F3E /* GoogleSignInDependencies.framework */; };
+		A5B0444120EAF96400755F3E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0444020EAF96400755F3E /* SafariServices.framework */; };
+		A5B0444320EAF97000755F3E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0444220EAF97000755F3E /* SystemConfiguration.framework */; };
 		A5E17D8B20E871FB0059ADBB /* ContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8A20E871FB0059ADBB /* ContentsViewController.swift */; };
 		A5E17D8D20E872070059ADBB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8C20E872070059ADBB /* LibraryViewController.swift */; };
 		A5E17D8F20E872170059ADBB /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8E20E872170059ADBB /* RequestViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5B0441820E9869B00755F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57D503020E7C4B0002967CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A57D503720E7C4B0002967CC;
+			remoteInfo = "Bridge-iOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A57D503820E7C4B0002967CC /* Bridge-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bridge-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +52,26 @@
 		A57D504220E7C4B1002967CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57D504520E7C4B1002967CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A57D504720E7C4B1002967CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B0440020E898F900755F3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A5B0440720E8A1FA00755F3E /* UIImageNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageNavigationItem.swift; sourceTree = "<group>"; };
+		A5B0440920E8A48C00755F3E /* UIShadowNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowNavigationBar.swift; sourceTree = "<group>"; };
+		A5B0440B20E8B57400755F3E /* UINoneLineToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINoneLineToolbar.swift; sourceTree = "<group>"; };
+		A5B0441320E9869B00755F3E /* Bridge-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bridge-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B0441520E9869B00755F3E /* Bridge_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge_iOSTests.swift; sourceTree = "<group>"; };
+		A5B0441720E9869B00755F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B0441D20EA49AC00755F3E /* UIContentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIContentsCollectionViewCell.swift; sourceTree = "<group>"; };
+		A5B0442120EA50C200755F3E /* UIContentsOuterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIContentsOuterView.swift; sourceTree = "<group>"; };
+		A5B0442320EA89B400755F3E /* UICustomTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomTabBarItem.swift; sourceTree = "<group>"; };
+		A5B0442620EAB0BB00755F3E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		A5B0442820EAB0D000755F3E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A5B0442A20EAB0D700755F3E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A5B0442C20EAB0E300755F3E /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		A5B0442E20EAB0F800755F3E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		A5B0443820EAF89800755F3E /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = ../../../../Documents/GoogleSDK/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		A5B0443C20EAF8F800755F3E /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = ../../../../Documents/GoogleSDK/GoogleSignIn.framework; sourceTree = "<group>"; };
+		A5B0443D20EAF8F800755F3E /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = ../../../../Documents/GoogleSDK/GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		A5B0444020EAF96400755F3E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		A5B0444220EAF97000755F3E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A5E17D8A20E871FB0059ADBB /* ContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsViewController.swift; sourceTree = "<group>"; };
 		A5E17D8C20E872070059ADBB /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		A5E17D8E20E872170059ADBB /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +79,21 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		A57D503520E7C4B0002967CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B0444320EAF97000755F3E /* SystemConfiguration.framework in Frameworks */,
+				A5B0444120EAF96400755F3E /* SafariServices.framework in Frameworks */,
+				A5B0443E20EAF8F800755F3E /* GoogleSignIn.framework in Frameworks */,
+				A5B0443F20EAF8F800755F3E /* GoogleSignInDependencies.framework in Frameworks */,
+				A5B0442720EAB0BB00755F3E /* Bolts.framework in Frameworks */,
+				A5B0442920EAB0D000755F3E /* FBSDKCoreKit.framework in Frameworks */,
+				A5B0442B20EAB0D700755F3E /* FBSDKLoginKit.framework in Frameworks */,
+				A5B0442F20EAB0F800755F3E /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B0441020E9869B00755F3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,8 +106,11 @@
 		A57D502F20E7C4B0002967CC = {
 			isa = PBXGroup;
 			children = (
+				A5B0443820EAF89800755F3E /* GoogleSignIn.bundle */,
 				A57D503A20E7C4B0002967CC /* Bridge-iOS */,
+				A5B0441420E9869B00755F3E /* Bridge-iOSTests */,
 				A57D503920E7C4B0002967CC /* Products */,
+				A5B0442520EAB0BB00755F3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				A57D503820E7C4B0002967CC /* Bridge-iOS.app */,
+				A5B0441320E9869B00755F3E /* Bridge-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +126,7 @@
 		A57D503A20E7C4B0002967CC /* Bridge-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				A5B0440220E89FE100755F3E /* Util */,
 				A5E17D8720E86EE50059ADBB /* Asset */,
 				A5E17D8920E86EF40059ADBB /* Storyboard */,
 				A5E17D8820E86EEC0059ADBB /* ViewController */,
@@ -67,6 +134,52 @@
 				A57D504720E7C4B1002967CC /* Info.plist */,
 			);
 			path = "Bridge-iOS";
+			sourceTree = "<group>";
+		};
+		A5B0440220E89FE100755F3E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A5B0440420E8A00000755F3E /* UI */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A5B0440420E8A00000755F3E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A5B0440720E8A1FA00755F3E /* UIImageNavigationItem.swift */,
+				A5B0440920E8A48C00755F3E /* UIShadowNavigationBar.swift */,
+				A5B0440B20E8B57400755F3E /* UINoneLineToolbar.swift */,
+				A5B0441D20EA49AC00755F3E /* UIContentsCollectionViewCell.swift */,
+				A5B0442120EA50C200755F3E /* UIContentsOuterView.swift */,
+				A5B0442320EA89B400755F3E /* UICustomTabBarItem.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A5B0441420E9869B00755F3E /* Bridge-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5B0441520E9869B00755F3E /* Bridge_iOSTests.swift */,
+				A5B0441720E9869B00755F3E /* Info.plist */,
+			);
+			path = "Bridge-iOSTests";
+			sourceTree = "<group>";
+		};
+		A5B0442520EAB0BB00755F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5B0444220EAF97000755F3E /* SystemConfiguration.framework */,
+				A5B0444020EAF96400755F3E /* SafariServices.framework */,
+				A5B0443C20EAF8F800755F3E /* GoogleSignIn.framework */,
+				A5B0443D20EAF8F800755F3E /* GoogleSignInDependencies.framework */,
+				A5B0442E20EAB0F800755F3E /* FBSDKShareKit.framework */,
+				A5B0442C20EAB0E300755F3E /* FBSDKMessengerShareKit.framework */,
+				A5B0442A20EAB0D700755F3E /* FBSDKLoginKit.framework */,
+				A5B0442820EAB0D000755F3E /* FBSDKCoreKit.framework */,
+				A5B0442620EAB0BB00755F3E /* Bolts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A5E17D8720E86EE50059ADBB /* Asset */ = {
@@ -84,6 +197,7 @@
 				A5E17D8A20E871FB0059ADBB /* ContentsViewController.swift */,
 				A5E17D8E20E872170059ADBB /* RequestViewController.swift */,
 				A5E17D8C20E872070059ADBB /* LibraryViewController.swift */,
+				A5B0440020E898F900755F3E /* LoginViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -117,6 +231,24 @@
 			productReference = A57D503820E7C4B0002967CC /* Bridge-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A5B0441220E9869B00755F3E /* Bridge-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B0441A20E9869B00755F3E /* Build configuration list for PBXNativeTarget "Bridge-iOSTests" */;
+			buildPhases = (
+				A5B0440F20E9869B00755F3E /* Sources */,
+				A5B0441020E9869B00755F3E /* Frameworks */,
+				A5B0441120E9869B00755F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5B0441920E9869B00755F3E /* PBXTargetDependency */,
+			);
+			name = "Bridge-iOSTests";
+			productName = "Bridge-iOSTests";
+			productReference = A5B0441320E9869B00755F3E /* Bridge-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -129,6 +261,10 @@
 				TargetAttributes = {
 					A57D503720E7C4B0002967CC = {
 						CreatedOnToolsVersion = 9.4.1;
+					};
+					A5B0441220E9869B00755F3E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A57D503720E7C4B0002967CC;
 					};
 				};
 			};
@@ -146,6 +282,7 @@
 			projectRoot = "";
 			targets = (
 				A57D503720E7C4B0002967CC /* Bridge-iOS */,
+				A5B0441220E9869B00755F3E /* Bridge-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -155,9 +292,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B0443920EAF89800755F3E /* GoogleSignIn.bundle in Resources */,
 				A57D504620E7C4B1002967CC /* LaunchScreen.storyboard in Resources */,
 				A57D504320E7C4B1002967CC /* Assets.xcassets in Resources */,
 				A57D504120E7C4B0002967CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B0441120E9869B00755F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,15 +313,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B0440120E898F900755F3E /* LoginViewController.swift in Sources */,
 				A57D503E20E7C4B0002967CC /* HomeViewController.swift in Sources */,
 				A57D503C20E7C4B0002967CC /* AppDelegate.swift in Sources */,
 				A5E17D8F20E872170059ADBB /* RequestViewController.swift in Sources */,
 				A5E17D8D20E872070059ADBB /* LibraryViewController.swift in Sources */,
+				A5B0440C20E8B57400755F3E /* UINoneLineToolbar.swift in Sources */,
+				A5B0442220EA50C200755F3E /* UIContentsOuterView.swift in Sources */,
+				A5B0442420EA89B400755F3E /* UICustomTabBarItem.swift in Sources */,
+				A5B0441E20EA49AC00755F3E /* UIContentsCollectionViewCell.swift in Sources */,
 				A5E17D8B20E871FB0059ADBB /* ContentsViewController.swift in Sources */,
+				A5B0440820E8A1FA00755F3E /* UIImageNavigationItem.swift in Sources */,
+				A5B0440A20E8A48C00755F3E /* UIShadowNavigationBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B0440F20E9869B00755F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B0441620E9869B00755F3E /* Bridge_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5B0441920E9869B00755F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A57D503720E7C4B0002967CC /* Bridge-iOS */;
+			targetProxy = A5B0441820E9869B00755F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A57D503F20E7C4B0002967CC /* Main.storyboard */ = {
@@ -318,12 +486,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 526389PKKJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Documents/FacebookSDK",
+					"~/Documents/GoogleSDK",
+				);
 				INFOPLIST_FILE = "Bridge-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codevillain.Bridge-iOS";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soptbridge.bridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,15 +512,63 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 526389PKKJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Documents/FacebookSDK",
+					"~/Documents/GoogleSDK",
+				);
 				INFOPLIST_FILE = "Bridge-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codevillain.Bridge-iOS";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soptbridge.bridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5B0441B20E9869B00755F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526389PKKJ;
+				INFOPLIST_FILE = "Bridge-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codevillain.Bridge-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bridge-iOS.app/Bridge-iOS";
+			};
+			name = Debug;
+		};
+		A5B0441C20E9869B00755F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526389PKKJ;
+				INFOPLIST_FILE = "Bridge-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codevillain.Bridge-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bridge-iOS.app/Bridge-iOS";
 			};
 			name = Release;
 		};
@@ -365,6 +589,15 @@
 			buildConfigurations = (
 				A57D504B20E7C4B1002967CC /* Debug */,
 				A57D504C20E7C4B1002967CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B0441A20E9869B00755F3E /* Build configuration list for PBXNativeTarget "Bridge-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B0441B20E9869B00755F3E /* Debug */,
+				A5B0441C20E9869B00755F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
