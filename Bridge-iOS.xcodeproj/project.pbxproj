@@ -19,6 +19,16 @@
 		A5B0441620E9869B00755F3E /* Bridge_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0441520E9869B00755F3E /* Bridge_iOSTests.swift */; };
 		A5B0441E20EA49AC00755F3E /* UIContentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0441D20EA49AC00755F3E /* UIContentsCollectionViewCell.swift */; };
 		A5B0442220EA50C200755F3E /* UIContentsOuterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0442120EA50C200755F3E /* UIContentsOuterView.swift */; };
+		A5B0442420EA89B400755F3E /* UICustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0442320EA89B400755F3E /* UICustomTabBarItem.swift */; };
+		A5B0442720EAB0BB00755F3E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442620EAB0BB00755F3E /* Bolts.framework */; };
+		A5B0442920EAB0D000755F3E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442820EAB0D000755F3E /* FBSDKCoreKit.framework */; };
+		A5B0442B20EAB0D700755F3E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442A20EAB0D700755F3E /* FBSDKLoginKit.framework */; };
+		A5B0442F20EAB0F800755F3E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442E20EAB0F800755F3E /* FBSDKShareKit.framework */; };
+		A5B0443920EAF89800755F3E /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5B0443820EAF89800755F3E /* GoogleSignIn.bundle */; };
+		A5B0443E20EAF8F800755F3E /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0443C20EAF8F800755F3E /* GoogleSignIn.framework */; };
+		A5B0443F20EAF8F800755F3E /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0443D20EAF8F800755F3E /* GoogleSignInDependencies.framework */; };
+		A5B0444120EAF96400755F3E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0444020EAF96400755F3E /* SafariServices.framework */; };
+		A5B0444320EAF97000755F3E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0444220EAF97000755F3E /* SystemConfiguration.framework */; };
 		A5E17D8B20E871FB0059ADBB /* ContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8A20E871FB0059ADBB /* ContentsViewController.swift */; };
 		A5E17D8D20E872070059ADBB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8C20E872070059ADBB /* LibraryViewController.swift */; };
 		A5E17D8F20E872170059ADBB /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8E20E872170059ADBB /* RequestViewController.swift */; };
@@ -51,6 +61,17 @@
 		A5B0441720E9869B00755F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5B0441D20EA49AC00755F3E /* UIContentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIContentsCollectionViewCell.swift; sourceTree = "<group>"; };
 		A5B0442120EA50C200755F3E /* UIContentsOuterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIContentsOuterView.swift; sourceTree = "<group>"; };
+		A5B0442320EA89B400755F3E /* UICustomTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomTabBarItem.swift; sourceTree = "<group>"; };
+		A5B0442620EAB0BB00755F3E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		A5B0442820EAB0D000755F3E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A5B0442A20EAB0D700755F3E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A5B0442C20EAB0E300755F3E /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		A5B0442E20EAB0F800755F3E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		A5B0443820EAF89800755F3E /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = ../../../../Documents/GoogleSDK/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		A5B0443C20EAF8F800755F3E /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = ../../../../Documents/GoogleSDK/GoogleSignIn.framework; sourceTree = "<group>"; };
+		A5B0443D20EAF8F800755F3E /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = ../../../../Documents/GoogleSDK/GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		A5B0444020EAF96400755F3E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		A5B0444220EAF97000755F3E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A5E17D8A20E871FB0059ADBB /* ContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsViewController.swift; sourceTree = "<group>"; };
 		A5E17D8C20E872070059ADBB /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		A5E17D8E20E872170059ADBB /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +82,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B0444320EAF97000755F3E /* SystemConfiguration.framework in Frameworks */,
+				A5B0444120EAF96400755F3E /* SafariServices.framework in Frameworks */,
+				A5B0443E20EAF8F800755F3E /* GoogleSignIn.framework in Frameworks */,
+				A5B0443F20EAF8F800755F3E /* GoogleSignInDependencies.framework in Frameworks */,
+				A5B0442720EAB0BB00755F3E /* Bolts.framework in Frameworks */,
+				A5B0442920EAB0D000755F3E /* FBSDKCoreKit.framework in Frameworks */,
+				A5B0442B20EAB0D700755F3E /* FBSDKLoginKit.framework in Frameworks */,
+				A5B0442F20EAB0F800755F3E /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,9 +106,11 @@
 		A57D502F20E7C4B0002967CC = {
 			isa = PBXGroup;
 			children = (
+				A5B0443820EAF89800755F3E /* GoogleSignIn.bundle */,
 				A57D503A20E7C4B0002967CC /* Bridge-iOS */,
 				A5B0441420E9869B00755F3E /* Bridge-iOSTests */,
 				A57D503920E7C4B0002967CC /* Products */,
+				A5B0442520EAB0BB00755F3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +152,7 @@
 				A5B0440B20E8B57400755F3E /* UINoneLineToolbar.swift */,
 				A5B0441D20EA49AC00755F3E /* UIContentsCollectionViewCell.swift */,
 				A5B0442120EA50C200755F3E /* UIContentsOuterView.swift */,
+				A5B0442320EA89B400755F3E /* UICustomTabBarItem.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -132,6 +164,22 @@
 				A5B0441720E9869B00755F3E /* Info.plist */,
 			);
 			path = "Bridge-iOSTests";
+			sourceTree = "<group>";
+		};
+		A5B0442520EAB0BB00755F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5B0444220EAF97000755F3E /* SystemConfiguration.framework */,
+				A5B0444020EAF96400755F3E /* SafariServices.framework */,
+				A5B0443C20EAF8F800755F3E /* GoogleSignIn.framework */,
+				A5B0443D20EAF8F800755F3E /* GoogleSignInDependencies.framework */,
+				A5B0442E20EAB0F800755F3E /* FBSDKShareKit.framework */,
+				A5B0442C20EAB0E300755F3E /* FBSDKMessengerShareKit.framework */,
+				A5B0442A20EAB0D700755F3E /* FBSDKLoginKit.framework */,
+				A5B0442820EAB0D000755F3E /* FBSDKCoreKit.framework */,
+				A5B0442620EAB0BB00755F3E /* Bolts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A5E17D8720E86EE50059ADBB /* Asset */ = {
@@ -244,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B0443920EAF89800755F3E /* GoogleSignIn.bundle in Resources */,
 				A57D504620E7C4B1002967CC /* LaunchScreen.storyboard in Resources */,
 				A57D504320E7C4B1002967CC /* Assets.xcassets in Resources */,
 				A57D504120E7C4B0002967CC /* Main.storyboard in Resources */,
@@ -271,6 +320,7 @@
 				A5E17D8D20E872070059ADBB /* LibraryViewController.swift in Sources */,
 				A5B0440C20E8B57400755F3E /* UINoneLineToolbar.swift in Sources */,
 				A5B0442220EA50C200755F3E /* UIContentsOuterView.swift in Sources */,
+				A5B0442420EA89B400755F3E /* UICustomTabBarItem.swift in Sources */,
 				A5B0441E20EA49AC00755F3E /* UIContentsCollectionViewCell.swift in Sources */,
 				A5E17D8B20E871FB0059ADBB /* ContentsViewController.swift in Sources */,
 				A5B0440820E8A1FA00755F3E /* UIImageNavigationItem.swift in Sources */,
@@ -436,12 +486,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 526389PKKJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Documents/FacebookSDK",
+					"~/Documents/GoogleSDK",
+				);
 				INFOPLIST_FILE = "Bridge-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codevillain.Bridge-iOS";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soptbridge.bridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,12 +512,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 526389PKKJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Documents/FacebookSDK",
+					"~/Documents/GoogleSDK",
+				);
 				INFOPLIST_FILE = "Bridge-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codevillain.Bridge-iOS";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soptbridge.bridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
