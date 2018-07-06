@@ -10,7 +10,7 @@ import UIKit
 
 @IBDesignable
 class UIShadowNavigationBar: UINavigationBar {
-
+    
     @IBInspectable var shadowColor: UIColor = UIColor.lightGray {
         didSet {
             self.layer.shadowColor = self.shadowColor.cgColor
