@@ -1,16 +1,15 @@
 //
-//  UIShadowNavigationBar.swift
+//  UIShadowSearchBar.swift
 //  Bridge-iOS
 //
-//  Created by 김덕원 on 2018. 7. 1..
+//  Created by 김덕원 on 2018. 7. 3..
 //  Copyright © 2018년 codevillain. All rights reserved.
 //
 
 import UIKit
 
-@IBDesignable
-class UIShadowNavigationBar: UINavigationBar {
-    
+class UIShadowSearchBar: UISearchBar {
+
     @IBInspectable var shadowColor: UIColor = UIColor.lightGray {
         didSet {
             self.layer.shadowColor = self.shadowColor.cgColor
