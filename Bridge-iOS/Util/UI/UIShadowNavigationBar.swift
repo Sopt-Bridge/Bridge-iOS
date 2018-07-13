@@ -34,6 +34,11 @@ class UIShadowNavigationBar: UINavigationBar {
             self.layer.shadowOffset = self.shadowOffset
         }
     }
+
+//    override func viewDidLayoutSubviews() {
+//        super.viewDidLayoutSubviews()
+//        self.frame = CGRect(x: 0, y: 0, width: 375, height: 90)
+//    }
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
@@ -43,5 +48,12 @@ class UIShadowNavigationBar: UINavigationBar {
         self.layer.shadowOpacity = self.shadowOpacity
         self.layer.shadowRadius = self.shadowRadius
         self.layer.shadowOffset = self.shadowOffset
+    }
+}
+
+extension UIShadowNavigationBar {
+    
+    override func sizeThatFits(_ size: CGSize) -> CGSize {
+        return CGSize(width: 375, height: 91)
     }
 }

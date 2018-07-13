@@ -46,8 +46,7 @@ class UICustomTabBarItem: UITabBarItem {
         let left = self.left
         let bottom = self.bottom
         let right = self.right
-        
         self.imageInsets = UIEdgeInsets(top: top, left: left, bottom: bottom, right: right)
-        self.title = nil
+//        self.title = nil
     }
 }

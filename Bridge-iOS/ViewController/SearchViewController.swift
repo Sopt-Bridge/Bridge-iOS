@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MXSegmentedPager
 
 class SearchViewController: UIViewController {
 
@@ -35,6 +34,7 @@ class SearchViewController: UIViewController {
             return
         }
         
+        self.searchBar.placeholder = "Search"
         self.searchButton.setTitleColor(self.enableColor, for: .normal)
         self.hashtagButton.setTitleColor(self.disableColor, for: .normal)
         self.searchButtonLine.isHidden = false
@@ -46,30 +46,12 @@ class SearchViewController: UIViewController {
             return
         }
         
+        self.searchBar.placeholder = "#Search"
         self.searchButton.setTitleColor(self.disableColor, for: .normal)
         self.hashtagButton.setTitleColor(self.enableColor, for: .normal)
         self.searchButtonLine.isHidden = true
         self.hashtagButtonLine.isHidden = false
     }
-    
-//    func initSearchBar() {
-//        for view in self.searchBar.subviews {
-//            for subview in view.subviews {
-//                if subview.isKind(of: UITextField.self) {
-//                    let textField: UITextField = subview as! UITextField
-//                    textField.clipsToBounds = true
-//                    textField.layer.masksToBounds = true
-//                    textField.layer.cornerRadius = 18
-//                    textField.layer.borderColor = UIColor.lightGray.cgColor
-//                    textField.layer.borderWidth = 2
-//                }
-//                else if subview.isKind(of: UIImageView.self) {
-//                    let imageView: UIImageView = subview as! UIImageView
-//                    imageView.removeFromSuperview()
-//                }
-//            }
-//        }
-//    }
     
     func hideNavigationAndTabBar() {
         if let navigationController = self.navigationController {
@@ -91,8 +73,8 @@ class SearchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.initSearchBar()
         self.hideNavigationAndTabBar()
+        self.present(prepareAlert, animated: true, completion: nil)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -104,14 +86,3 @@ class SearchViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 }
-
-//extension SearchViewController: UITableViewDataSource {
-//
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        <#code#>
-//    }
-//
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        <#code#>
-//    }
-//}
