@@ -19,6 +19,20 @@ class Bridge_iOSTests: XCTestCase {
         super.tearDown()
     }
     
+    func testSplitList() {
+        let list: [String] = ["A", "B", "C", "D", "E", "F", "G", "H"]
+        var result: [String] = []
+        
+        result.append(list.first!)
+        for i in 0 ..< 4 {
+            result.append(list[i])
+        }
+        result.append(list[3])
+        print(result)
+        
+        XCTAssert(result == ["A", "A", "B", "C", "D", "D"])
+    }
+    
     func testLoop() {
         var stringList: [String] = ["A", "B", "C", "D", "E"]
         for i in 0 ..< stringList.count {

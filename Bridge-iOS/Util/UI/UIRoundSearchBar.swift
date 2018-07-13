@@ -47,8 +47,8 @@ class UIRoundSearchBar: UISearchBar {
         }
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+    override func willMove(toSuperview newSuperview: UIView?) {
+        super.willMove(toSuperview: newSuperview)
         for view in self.subviews {
             for subview in view.subviews {
                 if subview.isKind(of: UITextField.self) {
@@ -64,22 +64,17 @@ class UIRoundSearchBar: UISearchBar {
         }
     }
     
-    override func didAddSubview(_ subview: UIView) {
-        super.didAddSubview(subview)
-        
+    override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
         if let field: UITextField = self.textField {
             field.clipsToBounds = true
             field.layer.masksToBounds = true
             field.layer.cornerRadius = self.cornerRadius
             field.layer.borderColor = self.borderColor.cgColor
             field.layer.borderWidth = self.borderWidth
-        }
+            }
         else {
             print("UITextField is Not initialized yet.")
         }
-    }
-    
-    override func prepareForInterfaceBuilder() {
-        super.prepareForInterfaceBuilder()
     }
 }

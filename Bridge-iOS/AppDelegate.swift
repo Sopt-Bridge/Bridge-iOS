@@ -58,23 +58,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate: GIDSignInDelegate {
-    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!,
+    func sign(_ signIn: GIDSignIn!, didSignInFor googleUser: GIDGoogleUser!,
               withError error: Error!) {
         if let error = error {
             print("----- error -----")
             print("\(error.localizedDescription)")
         }
         else {
+//            let idToken = googleUser.authentication.idToken
+            let url = googleUser.profile.imageURL(withDimension: 100).absoluteString
+            user.firstName = googleUser.profile.familyName
+            user.lastName = googleUser.profile.givenName
+            user.fullName = googleUser.profile.name
             
-            print("login complete")
-            // Perform any operations on signed in user here.
-//            let userId = user.userID                  // For client-side use only!
-//            let idToken = user.authentication.idToken // Safe to send to the server
-//            let fullName = user.profile.name
-//            let givenName = user.profile.givenName
-//            let familyName = user.profile.familyName
-//            let email = user.profile.email
-            // ...
+            if let id = Int64(googleUser.userID) {
+                print(id)
+            }
+            else {
+                print("casting Error: \(googleUser.userID)")
+            }
+            
+            let group = DispatchGroup()
+            group.enter()
+            LoginService.postLogin(userUuid: googleUser.userID, userName: googleUser.profile.name, completion: { (data) in
+                
+                user.userIndex = data.userIdx
+                user.token = data.token
+                AlamoUtil.loadImage(url: url, completion: { (image) in
+                    user.picture = Profile(frame: CGRect(x: 0, y: 0, width: 84, height: 84), transform: CGAffineTransform.identity, imagetoData: image!)
+                    group.leave()
+                })
+
+                group.notify(queue: .main) {
+                    saveUserData()
+                }
+                
+                NotificationCenter.default.post(name: .RefreshNavigationItem, object: nil)
+            })
         }
     }
 }

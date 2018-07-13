@@ -10,10 +10,12 @@ import UIKit
 
 class BannerViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var bannerCollectionView: UICollectionView!
+    @IBOutlet weak var bannerCollectionView: UIHomeBannerCollectionView!
+    @IBOutlet weak var pageControl: UIPageControl!
 }
 
 class UIBannerCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var bannerImage: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
 }
