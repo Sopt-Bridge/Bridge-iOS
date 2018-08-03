@@ -7,419 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B198A2580014DE761290A50 /* Pods_Bridge_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA124159762281E560862A3B /* Pods_Bridge_iOSTests.framework */; };
-		A57D503C20E7C4B0002967CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57D503B20E7C4B0002967CC /* AppDelegate.swift */; };
-		A57D503E20E7C4B0002967CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57D503D20E7C4B0002967CC /* HomeViewController.swift */; };
-		A57D504120E7C4B0002967CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57D503F20E7C4B0002967CC /* Main.storyboard */; };
-		A57D504320E7C4B1002967CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57D504220E7C4B1002967CC /* Assets.xcassets */; };
-		A57D504620E7C4B1002967CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57D504420E7C4B1002967CC /* LaunchScreen.storyboard */; };
-		A5B0440120E898F900755F3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0440020E898F900755F3E /* LoginViewController.swift */; };
-		A5B0440820E8A1FA00755F3E /* UIImageNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0440720E8A1FA00755F3E /* UIImageNavigationItem.swift */; };
-		A5B0440A20E8A48C00755F3E /* UIShadowNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0440920E8A48C00755F3E /* UIShadowNavigationBar.swift */; };
-		A5B0441620E9869B00755F3E /* Bridge_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0441520E9869B00755F3E /* Bridge_iOSTests.swift */; };
-		A5B0441E20EA49AC00755F3E /* UIContentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0441D20EA49AC00755F3E /* UIContentsCollectionViewCell.swift */; };
-		A5B0442420EA89B400755F3E /* UICustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0442320EA89B400755F3E /* UICustomTabBarItem.swift */; };
-		A5B0442720EAB0BB00755F3E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442620EAB0BB00755F3E /* Bolts.framework */; };
-		A5B0442920EAB0D000755F3E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442820EAB0D000755F3E /* FBSDKCoreKit.framework */; };
-		A5B0442B20EAB0D700755F3E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442A20EAB0D700755F3E /* FBSDKLoginKit.framework */; };
-		A5B0442F20EAB0F800755F3E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0442E20EAB0F800755F3E /* FBSDKShareKit.framework */; };
-		A5B0443920EAF89800755F3E /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5B0443820EAF89800755F3E /* GoogleSignIn.bundle */; };
-		A5B0443E20EAF8F800755F3E /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0443C20EAF8F800755F3E /* GoogleSignIn.framework */; };
-		A5B0443F20EAF8F800755F3E /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0443D20EAF8F800755F3E /* GoogleSignInDependencies.framework */; };
-		A5B0444120EAF96400755F3E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0444020EAF96400755F3E /* SafariServices.framework */; };
-		A5B0444320EAF97000755F3E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0444220EAF97000755F3E /* SystemConfiguration.framework */; };
-		A5B0444520EB088B00755F3E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0444420EB088B00755F3E /* ProfileViewController.swift */; };
-		A5B0444720EB0F2700755F3E /* UICircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0444620EB0F2700755F3E /* UICircularImageView.swift */; };
-		A5B0444A20EB19F300755F3E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0444920EB19F300755F3E /* UIColorExtension.swift */; };
-		A5B0445020EB252600755F3E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0444F20EB252600755F3E /* SearchViewController.swift */; };
-		A5BD29B520EB8AF400BACECA /* UIShadowSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29B420EB8AF400BACECA /* UIShadowSearchBar.swift */; };
-		A5BD29BD20EC015000BACECA /* UIBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29BC20EC015000BACECA /* UIBannerCollectionViewCell.swift */; };
-		A5BD29BF20EC2A1400BACECA /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29BE20EC2A1400BACECA /* SubscribeViewController.swift */; };
-		A5BD29C420EDE6F400BACECA /* UIRoundSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29C320EDE6F400BACECA /* UIRoundSearchBar.swift */; };
-		A5BD29C620EDF00D00BACECA /* UIRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29C520EDF00D00BACECA /* UIRoundButton.swift */; };
-		A5BD29CC20EE0C6800BACECA /* WriteInterpretationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29CB20EE0C6800BACECA /* WriteInterpretationViewController.swift */; };
-		A5BD29CE20EE0C9400BACECA /* InterpretationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29CD20EE0C9400BACECA /* InterpretationViewController.swift */; };
-		A5BD29D020EF459500BACECA /* BestChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29CF20EF459500BACECA /* BestChannelViewController.swift */; };
-		A5BD29D620F0993200BACECA /* UISelectorHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29D520F0993200BACECA /* UISelectorHeaderView.swift */; };
-		A5BD29DA20F09A4F00BACECA /* TableViewSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5BD29D920F09A4F00BACECA /* TableViewSectionHeader.xib */; };
-		A5BD29DC20F0CE9700BACECA /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29DB20F0CE9700BACECA /* CommentsViewController.swift */; };
-		A5BD29DE20F0D32C00BACECA /* DetailInterpretationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29DD20F0D32C00BACECA /* DetailInterpretationViewController.swift */; };
-		A5BD29E020F0DDA000BACECA /* UIRoundTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29DF20F0DDA000BACECA /* UIRoundTextView.swift */; };
-		A5BD29E220F1BE3200BACECA /* ImageContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29E120F1BE3200BACECA /* ImageContentsViewController.swift */; };
-		A5BD29E620F1D51E00BACECA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29E520F1D51E00BACECA /* User.swift */; };
-		A5BD29E820F1D5D100BACECA /* GlobalUseage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29E720F1D5D100BACECA /* GlobalUseage.swift */; };
-		A5BD29EC20F2135700BACECA /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29EB20F2135700BACECA /* Network.swift */; };
-		A5BD29EF20F23AE600BACECA /* HomeServiceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD29EE20F23AE600BACECA /* HomeServiceData.swift */; };
-		A5C62ABF20F329520083909D /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62ABE20F329520083909D /* HomeService.swift */; };
-		A5C62AC220F356130083909D /* ContentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AC120F356130083909D /* ContentData.swift */; };
-		A5C62AC820F483D10083909D /* UIStreamingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AC720F483D10083909D /* UIStreamingView.swift */; };
-		A5C62ACC20F4AC810083909D /* ExtensionAVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62ACB20F4AC810083909D /* ExtensionAVPlayerViewController.swift */; };
-		A5C62ACE20F4ACBD0083909D /* ExtensionNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62ACD20F4ACBD0083909D /* ExtensionNotificationCenter.swift */; };
-		A5C62AD320F4DC5B0083909D /* UICustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AD220F4DC5B0083909D /* UICustomToolBar.swift */; };
-		A5C62AD520F5071D0083909D /* AlamoUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AD420F5071D0083909D /* AlamoUtil.swift */; };
-		A5C62AD720F52D320083909D /* UIHomeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AD620F52D320083909D /* UIHomeCollectionView.swift */; };
-		A5C62AD920F54E9D0083909D /* UICircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AD820F54E9D0083909D /* UICircularView.swift */; };
-		A5C62ADC20F54EE10083909D /* UIShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62ADB20F54EE10083909D /* UIShadowView.swift */; };
-		A5C62ADE20F554530083909D /* UIHomeBannerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62ADD20F554530083909D /* UIHomeBannerCollectionView.swift */; };
-		A5C62AE020F5EEC60083909D /* ContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62ADF20F5EEC60083909D /* ContentService.swift */; };
-		A5C62AE220F5F1180083909D /* ContentCommentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AE120F5F1180083909D /* ContentCommentData.swift */; };
-		A5C62AE420F5FB290083909D /* UICommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AE320F5FB290083909D /* UICommentTableViewCell.swift */; };
-		A5C62AE620F60A8E0083909D /* UIRoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AE520F60A8E0083909D /* UIRoundTextField.swift */; };
-		A5C62AE820F60B720083909D /* CommentReplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AE720F60B720083909D /* CommentReplayViewController.swift */; };
-		A5C62AEA20F6202C0083909D /* UIUpNextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AE920F6202C0083909D /* UIUpNextTableViewCell.swift */; };
-		A5C62AEC20F62D8D0083909D /* UIToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AEB20F62D8D0083909D /* UIToggleButton.swift */; };
-		A5C62AEE20F680800083909D /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AED20F680800083909D /* LoginService.swift */; };
-		A5C62AF020F681F80083909D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AEF20F681F80083909D /* UserData.swift */; };
-		A5C62AF220F6BFA50083909D /* UIReplayCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AF120F6BFA50083909D /* UIReplayCommentTableViewCell.swift */; };
-		A5C62AF420F759DF0083909D /* RequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AF320F759DF0083909D /* RequestData.swift */; };
-		A5C62AF620F75B6C0083909D /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AF520F75B6C0083909D /* RequestService.swift */; };
-		A5C62AF820F75E5D0083909D /* UIRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AF720F75E5D0083909D /* UIRequestTableViewCell.swift */; };
-		A5C62AFA20F7EE980083909D /* UIImageContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AF920F7EE980083909D /* UIImageContentCollectionViewCell.swift */; };
-		A5C62AFC20F8E5110083909D /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C62AFB20F8E5110083909D /* SplashViewController.swift */; };
-		A5C62AFE20F8EA510083909D /* splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5C62AFD20F8EA510083909D /* splash.gif */; };
-		A5E17D8B20E871FB0059ADBB /* ContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8A20E871FB0059ADBB /* ContentsViewController.swift */; };
-		A5E17D8D20E872070059ADBB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8C20E872070059ADBB /* LibraryViewController.swift */; };
-		A5E17D8F20E872170059ADBB /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E17D8E20E872170059ADBB /* RequestViewController.swift */; };
-		B1D6BA1D545BE93C82D520E4 /* Pods_Bridge_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C172B34758D7ADAA5D3A109 /* Pods_Bridge_iOS.framework */; };
+		A5D3AC492114242600083152 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3AC482114242600083152 /* HomeViewController.swift */; };
+		A5D3AC502114434E00083152 /* RadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3AC4F2114434E00083152 /* RadioButtonGroup.swift */; };
+		A5ECB2F821138EF0008A18D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ECB2F721138EF0008A18D0 /* AppDelegate.swift */; };
+		A5ECB2FD21138EF0008A18D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5ECB2FB21138EF0008A18D0 /* Main.storyboard */; };
+		A5ECB2FF21138EF1008A18D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5ECB2FE21138EF1008A18D0 /* Assets.xcassets */; };
+		A5ECB30221138EF1008A18D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5ECB30021138EF1008A18D0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A5B0441820E9869B00755F3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A57D503020E7C4B0002967CC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A57D503720E7C4B0002967CC;
-			remoteInfo = "Bridge-iOS";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		090EF84368FF9594CBE3A593 /* Pods-Bridge-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bridge-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bridge-iOSTests/Pods-Bridge-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1851FACFB516FE51DDD1CD45 /* Pods-Bridge-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bridge-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bridge-iOS/Pods-Bridge-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		8CDCE40C714411CFD2989126 /* Pods-Bridge-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bridge-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bridge-iOS/Pods-Bridge-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		9C172B34758D7ADAA5D3A109 /* Pods_Bridge_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bridge_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A57D503820E7C4B0002967CC /* Bridge-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bridge-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A57D503B20E7C4B0002967CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A57D503D20E7C4B0002967CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		A57D504020E7C4B0002967CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A57D504220E7C4B1002967CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A57D504520E7C4B1002967CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A57D504720E7C4B1002967CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5943DB1D8C3F50C80C05881 /* Pods-Bridge-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bridge-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bridge-iOSTests/Pods-Bridge-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		A5B0440020E898F900755F3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		A5B0440720E8A1FA00755F3E /* UIImageNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageNavigationItem.swift; sourceTree = "<group>"; };
-		A5B0440920E8A48C00755F3E /* UIShadowNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowNavigationBar.swift; sourceTree = "<group>"; };
-		A5B0441320E9869B00755F3E /* Bridge-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bridge-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5B0441520E9869B00755F3E /* Bridge_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge_iOSTests.swift; sourceTree = "<group>"; };
-		A5B0441720E9869B00755F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5B0441D20EA49AC00755F3E /* UIContentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIContentsCollectionViewCell.swift; sourceTree = "<group>"; };
-		A5B0442320EA89B400755F3E /* UICustomTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomTabBarItem.swift; sourceTree = "<group>"; };
-		A5B0442620EAB0BB00755F3E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
-		A5B0442820EAB0D000755F3E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		A5B0442A20EAB0D700755F3E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		A5B0442C20EAB0E300755F3E /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
-		A5B0442E20EAB0F800755F3E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
-		A5B0443820EAF89800755F3E /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = ../../../../Documents/GoogleSDK/GoogleSignIn.bundle; sourceTree = "<group>"; };
-		A5B0443C20EAF8F800755F3E /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = ../../../../Documents/GoogleSDK/GoogleSignIn.framework; sourceTree = "<group>"; };
-		A5B0443D20EAF8F800755F3E /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = ../../../../Documents/GoogleSDK/GoogleSignInDependencies.framework; sourceTree = "<group>"; };
-		A5B0444020EAF96400755F3E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
-		A5B0444220EAF97000755F3E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		A5B0444420EB088B00755F3E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		A5B0444620EB0F2700755F3E /* UICircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICircularImageView.swift; sourceTree = "<group>"; };
-		A5B0444920EB19F300755F3E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		A5B0444F20EB252600755F3E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		A5BD29B420EB8AF400BACECA /* UIShadowSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowSearchBar.swift; sourceTree = "<group>"; };
-		A5BD29BC20EC015000BACECA /* UIBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBannerCollectionViewCell.swift; sourceTree = "<group>"; };
-		A5BD29BE20EC2A1400BACECA /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
-		A5BD29C320EDE6F400BACECA /* UIRoundSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundSearchBar.swift; sourceTree = "<group>"; };
-		A5BD29C520EDF00D00BACECA /* UIRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundButton.swift; sourceTree = "<group>"; };
-		A5BD29CB20EE0C6800BACECA /* WriteInterpretationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteInterpretationViewController.swift; sourceTree = "<group>"; };
-		A5BD29CD20EE0C9400BACECA /* InterpretationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpretationViewController.swift; sourceTree = "<group>"; };
-		A5BD29CF20EF459500BACECA /* BestChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestChannelViewController.swift; sourceTree = "<group>"; };
-		A5BD29D520F0993200BACECA /* UISelectorHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISelectorHeaderView.swift; sourceTree = "<group>"; };
-		A5BD29D920F09A4F00BACECA /* TableViewSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewSectionHeader.xib; sourceTree = "<group>"; };
-		A5BD29DB20F0CE9700BACECA /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
-		A5BD29DD20F0D32C00BACECA /* DetailInterpretationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInterpretationViewController.swift; sourceTree = "<group>"; };
-		A5BD29DF20F0DDA000BACECA /* UIRoundTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundTextView.swift; sourceTree = "<group>"; };
-		A5BD29E120F1BE3200BACECA /* ImageContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContentsViewController.swift; sourceTree = "<group>"; };
-		A5BD29E520F1D51E00BACECA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		A5BD29E720F1D5D100BACECA /* GlobalUseage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalUseage.swift; sourceTree = "<group>"; };
-		A5BD29EB20F2135700BACECA /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		A5BD29EE20F23AE600BACECA /* HomeServiceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceData.swift; sourceTree = "<group>"; };
-		A5C62ABE20F329520083909D /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
-		A5C62AC120F356130083909D /* ContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentData.swift; sourceTree = "<group>"; };
-		A5C62AC720F483D10083909D /* UIStreamingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStreamingView.swift; sourceTree = "<group>"; };
-		A5C62ACB20F4AC810083909D /* ExtensionAVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionAVPlayerViewController.swift; sourceTree = "<group>"; };
-		A5C62ACD20F4ACBD0083909D /* ExtensionNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionNotificationCenter.swift; sourceTree = "<group>"; };
-		A5C62AD220F4DC5B0083909D /* UICustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomToolBar.swift; sourceTree = "<group>"; };
-		A5C62AD420F5071D0083909D /* AlamoUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamoUtil.swift; sourceTree = "<group>"; };
-		A5C62AD620F52D320083909D /* UIHomeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHomeCollectionView.swift; sourceTree = "<group>"; };
-		A5C62AD820F54E9D0083909D /* UICircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICircularView.swift; sourceTree = "<group>"; };
-		A5C62ADB20F54EE10083909D /* UIShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowView.swift; sourceTree = "<group>"; };
-		A5C62ADD20F554530083909D /* UIHomeBannerCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHomeBannerCollectionView.swift; sourceTree = "<group>"; };
-		A5C62ADF20F5EEC60083909D /* ContentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentService.swift; sourceTree = "<group>"; };
-		A5C62AE120F5F1180083909D /* ContentCommentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCommentData.swift; sourceTree = "<group>"; };
-		A5C62AE320F5FB290083909D /* UICommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICommentTableViewCell.swift; sourceTree = "<group>"; };
-		A5C62AE520F60A8E0083909D /* UIRoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundTextField.swift; sourceTree = "<group>"; };
-		A5C62AE720F60B720083909D /* CommentReplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentReplayViewController.swift; sourceTree = "<group>"; };
-		A5C62AE920F6202C0083909D /* UIUpNextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUpNextTableViewCell.swift; sourceTree = "<group>"; };
-		A5C62AEB20F62D8D0083909D /* UIToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIToggleButton.swift; sourceTree = "<group>"; };
-		A5C62AED20F680800083909D /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
-		A5C62AEF20F681F80083909D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		A5C62AF120F6BFA50083909D /* UIReplayCommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIReplayCommentTableViewCell.swift; sourceTree = "<group>"; };
-		A5C62AF320F759DF0083909D /* RequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestData.swift; sourceTree = "<group>"; };
-		A5C62AF520F75B6C0083909D /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
-		A5C62AF720F75E5D0083909D /* UIRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRequestTableViewCell.swift; sourceTree = "<group>"; };
-		A5C62AF920F7EE980083909D /* UIImageContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageContentCollectionViewCell.swift; sourceTree = "<group>"; };
-		A5C62AFB20F8E5110083909D /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		A5C62AFD20F8EA510083909D /* splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = splash.gif; path = ../../../../../splash.gif; sourceTree = "<group>"; };
-		A5E17D8A20E871FB0059ADBB /* ContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsViewController.swift; sourceTree = "<group>"; };
-		A5E17D8C20E872070059ADBB /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
-		A5E17D8E20E872170059ADBB /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
-		BA124159762281E560862A3B /* Pods_Bridge_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bridge_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D3AC482114242600083152 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A5D3AC4F2114434E00083152 /* RadioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonGroup.swift; sourceTree = "<group>"; };
+		A5ECB2F421138EF0008A18D0 /* Bridge-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bridge-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5ECB2F721138EF0008A18D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5ECB2FC21138EF0008A18D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5ECB2FE21138EF1008A18D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5ECB30121138EF1008A18D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5ECB30321138EF1008A18D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A57D503520E7C4B0002967CC /* Frameworks */ = {
+		A5ECB2F121138EF0008A18D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5B0444320EAF97000755F3E /* SystemConfiguration.framework in Frameworks */,
-				A5B0444120EAF96400755F3E /* SafariServices.framework in Frameworks */,
-				A5B0443E20EAF8F800755F3E /* GoogleSignIn.framework in Frameworks */,
-				A5B0443F20EAF8F800755F3E /* GoogleSignInDependencies.framework in Frameworks */,
-				A5B0442720EAB0BB00755F3E /* Bolts.framework in Frameworks */,
-				A5B0442920EAB0D000755F3E /* FBSDKCoreKit.framework in Frameworks */,
-				A5B0442B20EAB0D700755F3E /* FBSDKLoginKit.framework in Frameworks */,
-				A5B0442F20EAB0F800755F3E /* FBSDKShareKit.framework in Frameworks */,
-				B1D6BA1D545BE93C82D520E4 /* Pods_Bridge_iOS.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5B0441020E9869B00755F3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B198A2580014DE761290A50 /* Pods_Bridge_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B2822832B7029EE242593BD /* Pods */ = {
+		A5D3AC4A2114242D00083152 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8CDCE40C714411CFD2989126 /* Pods-Bridge-iOS.debug.xcconfig */,
-				1851FACFB516FE51DDD1CD45 /* Pods-Bridge-iOS.release.xcconfig */,
-				090EF84368FF9594CBE3A593 /* Pods-Bridge-iOSTests.debug.xcconfig */,
-				A5943DB1D8C3F50C80C05881 /* Pods-Bridge-iOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A57D502F20E7C4B0002967CC = {
-			isa = PBXGroup;
-			children = (
-				A5B0443820EAF89800755F3E /* GoogleSignIn.bundle */,
-				A57D503A20E7C4B0002967CC /* Bridge-iOS */,
-				A5B0441420E9869B00755F3E /* Bridge-iOSTests */,
-				A57D503920E7C4B0002967CC /* Products */,
-				A5B0442520EAB0BB00755F3E /* Frameworks */,
-				2B2822832B7029EE242593BD /* Pods */,
-			);
-			sourceTree = "<group>";
-		};
-		A57D503920E7C4B0002967CC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A57D503820E7C4B0002967CC /* Bridge-iOS.app */,
-				A5B0441320E9869B00755F3E /* Bridge-iOSTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A57D503A20E7C4B0002967CC /* Bridge-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A5B0440220E89FE100755F3E /* Util */,
-				A5E17D8720E86EE50059ADBB /* Asset */,
-				A5E17D8920E86EF40059ADBB /* Storyboard */,
-				A5E17D8820E86EEC0059ADBB /* ViewController */,
-				A57D503B20E7C4B0002967CC /* AppDelegate.swift */,
-				A57D504720E7C4B1002967CC /* Info.plist */,
-			);
-			path = "Bridge-iOS";
-			sourceTree = "<group>";
-		};
-		A5B0440220E89FE100755F3E /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				A5C62AC020F355F40083909D /* Model */,
-				A5BD29ED20F2155900BACECA /* Network */,
-				A5BD29E320F1D51000BACECA /* Data */,
-				A5B0444820EB19E600755F3E /* Extension */,
-				A5B0440420E8A00000755F3E /* UI */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		A5B0440420E8A00000755F3E /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				A5B0440720E8A1FA00755F3E /* UIImageNavigationItem.swift */,
-				A5B0440920E8A48C00755F3E /* UIShadowNavigationBar.swift */,
-				A5B0441D20EA49AC00755F3E /* UIContentsCollectionViewCell.swift */,
-				A5B0442320EA89B400755F3E /* UICustomTabBarItem.swift */,
-				A5B0444620EB0F2700755F3E /* UICircularImageView.swift */,
-				A5BD29B420EB8AF400BACECA /* UIShadowSearchBar.swift */,
-				A5BD29BC20EC015000BACECA /* UIBannerCollectionViewCell.swift */,
-				A5BD29C320EDE6F400BACECA /* UIRoundSearchBar.swift */,
-				A5BD29C520EDF00D00BACECA /* UIRoundButton.swift */,
-				A5BD29D520F0993200BACECA /* UISelectorHeaderView.swift */,
-				A5BD29DF20F0DDA000BACECA /* UIRoundTextView.swift */,
-				A5C62AC720F483D10083909D /* UIStreamingView.swift */,
-				A5C62AD220F4DC5B0083909D /* UICustomToolBar.swift */,
-				A5C62AD620F52D320083909D /* UIHomeCollectionView.swift */,
-				A5C62ADD20F554530083909D /* UIHomeBannerCollectionView.swift */,
-				A5C62AD820F54E9D0083909D /* UICircularView.swift */,
-				A5C62ADB20F54EE10083909D /* UIShadowView.swift */,
-				A5C62AE520F60A8E0083909D /* UIRoundTextField.swift */,
-				A5C62AE920F6202C0083909D /* UIUpNextTableViewCell.swift */,
-				A5C62AEB20F62D8D0083909D /* UIToggleButton.swift */,
-				A5C62AF120F6BFA50083909D /* UIReplayCommentTableViewCell.swift */,
-				A5C62AE320F5FB290083909D /* UICommentTableViewCell.swift */,
-				A5C62AF720F75E5D0083909D /* UIRequestTableViewCell.swift */,
-				A5C62AF920F7EE980083909D /* UIImageContentCollectionViewCell.swift */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		A5B0441420E9869B00755F3E /* Bridge-iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				A5B0441520E9869B00755F3E /* Bridge_iOSTests.swift */,
-				A5B0441720E9869B00755F3E /* Info.plist */,
-			);
-			path = "Bridge-iOSTests";
-			sourceTree = "<group>";
-		};
-		A5B0442520EAB0BB00755F3E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A5B0444220EAF97000755F3E /* SystemConfiguration.framework */,
-				A5B0444020EAF96400755F3E /* SafariServices.framework */,
-				A5B0443C20EAF8F800755F3E /* GoogleSignIn.framework */,
-				A5B0443D20EAF8F800755F3E /* GoogleSignInDependencies.framework */,
-				A5B0442E20EAB0F800755F3E /* FBSDKShareKit.framework */,
-				A5B0442C20EAB0E300755F3E /* FBSDKMessengerShareKit.framework */,
-				A5B0442A20EAB0D700755F3E /* FBSDKLoginKit.framework */,
-				A5B0442820EAB0D000755F3E /* FBSDKCoreKit.framework */,
-				A5B0442620EAB0BB00755F3E /* Bolts.framework */,
-				9C172B34758D7ADAA5D3A109 /* Pods_Bridge_iOS.framework */,
-				BA124159762281E560862A3B /* Pods_Bridge_iOSTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A5B0444820EB19E600755F3E /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				A5B0444920EB19F300755F3E /* UIColorExtension.swift */,
-				A5C62ACB20F4AC810083909D /* ExtensionAVPlayerViewController.swift */,
-				A5C62ACD20F4ACBD0083909D /* ExtensionNotificationCenter.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		A5BD29E320F1D51000BACECA /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				A5BD29E520F1D51E00BACECA /* User.swift */,
-				A5BD29E720F1D5D100BACECA /* GlobalUseage.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		A5BD29ED20F2155900BACECA /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				A5BD29EB20F2135700BACECA /* Network.swift */,
-				A5C62ABE20F329520083909D /* HomeService.swift */,
-				A5C62AD420F5071D0083909D /* AlamoUtil.swift */,
-				A5C62ADF20F5EEC60083909D /* ContentService.swift */,
-				A5C62AED20F680800083909D /* LoginService.swift */,
-				A5C62AF520F75B6C0083909D /* RequestService.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		A5C62AC020F355F40083909D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A5BD29EE20F23AE600BACECA /* HomeServiceData.swift */,
-				A5C62AC120F356130083909D /* ContentData.swift */,
-				A5C62AE120F5F1180083909D /* ContentCommentData.swift */,
-				A5C62AEF20F681F80083909D /* UserData.swift */,
-				A5C62AF320F759DF0083909D /* RequestData.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A5E17D8720E86EE50059ADBB /* Asset */ = {
-			isa = PBXGroup;
-			children = (
-				A5C62AFD20F8EA510083909D /* splash.gif */,
-				A57D504220E7C4B1002967CC /* Assets.xcassets */,
-			);
-			path = Asset;
-			sourceTree = "<group>";
-		};
-		A5E17D8820E86EEC0059ADBB /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				A57D503D20E7C4B0002967CC /* HomeViewController.swift */,
-				A5E17D8A20E871FB0059ADBB /* ContentsViewController.swift */,
-				A5BD29E120F1BE3200BACECA /* ImageContentsViewController.swift */,
-				A5E17D8E20E872170059ADBB /* RequestViewController.swift */,
-				A5E17D8C20E872070059ADBB /* LibraryViewController.swift */,
-				A5B0440020E898F900755F3E /* LoginViewController.swift */,
-				A5B0444420EB088B00755F3E /* ProfileViewController.swift */,
-				A5B0444F20EB252600755F3E /* SearchViewController.swift */,
-				A5BD29BE20EC2A1400BACECA /* SubscribeViewController.swift */,
-				A5BD29CB20EE0C6800BACECA /* WriteInterpretationViewController.swift */,
-				A5BD29CD20EE0C9400BACECA /* InterpretationViewController.swift */,
-				A5BD29CF20EF459500BACECA /* BestChannelViewController.swift */,
-				A5BD29DB20F0CE9700BACECA /* CommentsViewController.swift */,
-				A5BD29DD20F0D32C00BACECA /* DetailInterpretationViewController.swift */,
-				A5C62AE720F60B720083909D /* CommentReplayViewController.swift */,
-				A5C62AFB20F8E5110083909D /* SplashViewController.swift */,
+				A5D3AC482114242600083152 /* HomeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		A5E17D8920E86EF40059ADBB /* Storyboard */ = {
+		A5D3AC4B2114243400083152 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				A57D503F20E7C4B0002967CC /* Main.storyboard */,
-				A57D504420E7C4B1002967CC /* LaunchScreen.storyboard */,
-				A5BD29D920F09A4F00BACECA /* TableViewSectionHeader.xib */,
+				A5ECB2FB21138EF0008A18D0 /* Main.storyboard */,
+				A5ECB30021138EF1008A18D0 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A5D3AC4C2114243E00083152 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				A5ECB2FE21138EF1008A18D0 /* Assets.xcassets */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		A5D3AC4D2114431200083152 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3AC4E2114433D00083152 /* UI */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A5D3AC4E2114433D00083152 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3AC4F2114434E00083152 /* RadioButtonGroup.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A5ECB2EB21138EF0008A18D0 = {
+			isa = PBXGroup;
+			children = (
+				A5ECB2F621138EF0008A18D0 /* Bridge-iOS */,
+				A5ECB2F521138EF0008A18D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5ECB2F521138EF0008A18D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5ECB2F421138EF0008A18D0 /* Bridge-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5ECB2F621138EF0008A18D0 /* Bridge-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3AC4C2114243E00083152 /* Asset */,
+				A5D3AC4B2114243400083152 /* Storyboard */,
+				A5D3AC4D2114431200083152 /* Util */,
+				A5D3AC4A2114242D00083152 /* ViewController */,
+				A5ECB2F721138EF0008A18D0 /* AppDelegate.swift */,
+				A5ECB30321138EF1008A18D0 /* Info.plist */,
+			);
+			path = "Bridge-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A57D503720E7C4B0002967CC /* Bridge-iOS */ = {
+		A5ECB2F321138EF0008A18D0 /* Bridge-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A57D504A20E7C4B1002967CC /* Build configuration list for PBXNativeTarget "Bridge-iOS" */;
+			buildConfigurationList = A5ECB30621138EF1008A18D0 /* Build configuration list for PBXNativeTarget "Bridge-iOS" */;
 			buildPhases = (
-				29122ECF0C9A9324CF39CE32 /* [CP] Check Pods Manifest.lock */,
-				A57D503420E7C4B0002967CC /* Sources */,
-				A57D503520E7C4B0002967CC /* Frameworks */,
-				A57D503620E7C4B0002967CC /* Resources */,
-				F1703A6BB43F66D3F52B5B26 /* [CP] Embed Pods Frameworks */,
+				A5ECB2F021138EF0008A18D0 /* Sources */,
+				A5ECB2F121138EF0008A18D0 /* Frameworks */,
+				A5ECB2F221138EF0008A18D0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -427,48 +124,25 @@
 			);
 			name = "Bridge-iOS";
 			productName = "Bridge-iOS";
-			productReference = A57D503820E7C4B0002967CC /* Bridge-iOS.app */;
+			productReference = A5ECB2F421138EF0008A18D0 /* Bridge-iOS.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A5B0441220E9869B00755F3E /* Bridge-iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5B0441A20E9869B00755F3E /* Build configuration list for PBXNativeTarget "Bridge-iOSTests" */;
-			buildPhases = (
-				A47A924BEE546A92424AA4A8 /* [CP] Check Pods Manifest.lock */,
-				A5B0440F20E9869B00755F3E /* Sources */,
-				A5B0441020E9869B00755F3E /* Frameworks */,
-				A5B0441120E9869B00755F3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A5B0441920E9869B00755F3E /* PBXTargetDependency */,
-			);
-			name = "Bridge-iOSTests";
-			productName = "Bridge-iOSTests";
-			productReference = A5B0441320E9869B00755F3E /* Bridge-iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A57D503020E7C4B0002967CC /* Project object */ = {
+		A5ECB2EC21138EF0008A18D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = codevillain;
 				TargetAttributes = {
-					A57D503720E7C4B0002967CC = {
+					A5ECB2F321138EF0008A18D0 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					A5B0441220E9869B00755F3E = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = A57D503720E7C4B0002967CC;
 					};
 				};
 			};
-			buildConfigurationList = A57D503320E7C4B0002967CC /* Build configuration list for PBXProject "Bridge-iOS" */;
+			buildConfigurationList = A5ECB2EF21138EF0008A18D0 /* Build configuration list for PBXProject "Bridge-iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -476,199 +150,55 @@
 				en,
 				Base,
 			);
-			mainGroup = A57D502F20E7C4B0002967CC;
-			productRefGroup = A57D503920E7C4B0002967CC /* Products */;
+			mainGroup = A5ECB2EB21138EF0008A18D0;
+			productRefGroup = A5ECB2F521138EF0008A18D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A57D503720E7C4B0002967CC /* Bridge-iOS */,
-				A5B0441220E9869B00755F3E /* Bridge-iOSTests */,
+				A5ECB2F321138EF0008A18D0 /* Bridge-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A57D503620E7C4B0002967CC /* Resources */ = {
+		A5ECB2F221138EF0008A18D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5B0443920EAF89800755F3E /* GoogleSignIn.bundle in Resources */,
-				A57D504620E7C4B1002967CC /* LaunchScreen.storyboard in Resources */,
-				A57D504320E7C4B1002967CC /* Assets.xcassets in Resources */,
-				A5C62AFE20F8EA510083909D /* splash.gif in Resources */,
-				A5BD29DA20F09A4F00BACECA /* TableViewSectionHeader.xib in Resources */,
-				A57D504120E7C4B0002967CC /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5B0441120E9869B00755F3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A5ECB30221138EF1008A18D0 /* LaunchScreen.storyboard in Resources */,
+				A5ECB2FF21138EF1008A18D0 /* Assets.xcassets in Resources */,
+				A5ECB2FD21138EF0008A18D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		29122ECF0C9A9324CF39CE32 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Bridge-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A47A924BEE546A92424AA4A8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Bridge-iOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F1703A6BB43F66D3F52B5B26 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Bridge-iOS/Pods-Bridge-iOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bridge-iOS/Pods-Bridge-iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		A57D503420E7C4B0002967CC /* Sources */ = {
+		A5ECB2F021138EF0008A18D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C62AE820F60B720083909D /* CommentReplayViewController.swift in Sources */,
-				A5BD29D020EF459500BACECA /* BestChannelViewController.swift in Sources */,
-				A5C62ACE20F4ACBD0083909D /* ExtensionNotificationCenter.swift in Sources */,
-				A5C62AE020F5EEC60083909D /* ContentService.swift in Sources */,
-				A5B0440120E898F900755F3E /* LoginViewController.swift in Sources */,
-				A5C62AD520F5071D0083909D /* AlamoUtil.swift in Sources */,
-				A5C62AF220F6BFA50083909D /* UIReplayCommentTableViewCell.swift in Sources */,
-				A57D503E20E7C4B0002967CC /* HomeViewController.swift in Sources */,
-				A5B0444A20EB19F300755F3E /* UIColorExtension.swift in Sources */,
-				A5BD29CC20EE0C6800BACECA /* WriteInterpretationViewController.swift in Sources */,
-				A5BD29BD20EC015000BACECA /* UIBannerCollectionViewCell.swift in Sources */,
-				A5C62AF820F75E5D0083909D /* UIRequestTableViewCell.swift in Sources */,
-				A5B0445020EB252600755F3E /* SearchViewController.swift in Sources */,
-				A57D503C20E7C4B0002967CC /* AppDelegate.swift in Sources */,
-				A5C62ADC20F54EE10083909D /* UIShadowView.swift in Sources */,
-				A5BD29E620F1D51E00BACECA /* User.swift in Sources */,
-				A5B0444720EB0F2700755F3E /* UICircularImageView.swift in Sources */,
-				A5E17D8F20E872170059ADBB /* RequestViewController.swift in Sources */,
-				A5C62AE220F5F1180083909D /* ContentCommentData.swift in Sources */,
-				A5C62ACC20F4AC810083909D /* ExtensionAVPlayerViewController.swift in Sources */,
-				A5C62AF620F75B6C0083909D /* RequestService.swift in Sources */,
-				A5C62AD320F4DC5B0083909D /* UICustomToolBar.swift in Sources */,
-				A5C62AC220F356130083909D /* ContentData.swift in Sources */,
-				A5C62ABF20F329520083909D /* HomeService.swift in Sources */,
-				A5BD29E220F1BE3200BACECA /* ImageContentsViewController.swift in Sources */,
-				A5BD29C420EDE6F400BACECA /* UIRoundSearchBar.swift in Sources */,
-				A5E17D8D20E872070059ADBB /* LibraryViewController.swift in Sources */,
-				A5BD29BF20EC2A1400BACECA /* SubscribeViewController.swift in Sources */,
-				A5C62AE620F60A8E0083909D /* UIRoundTextField.swift in Sources */,
-				A5BD29DC20F0CE9700BACECA /* CommentsViewController.swift in Sources */,
-				A5C62AEA20F6202C0083909D /* UIUpNextTableViewCell.swift in Sources */,
-				A5BD29EC20F2135700BACECA /* Network.swift in Sources */,
-				A5BD29E820F1D5D100BACECA /* GlobalUseage.swift in Sources */,
-				A5C62AFC20F8E5110083909D /* SplashViewController.swift in Sources */,
-				A5C62AF020F681F80083909D /* UserData.swift in Sources */,
-				A5C62AEC20F62D8D0083909D /* UIToggleButton.swift in Sources */,
-				A5BD29EF20F23AE600BACECA /* HomeServiceData.swift in Sources */,
-				A5BD29B520EB8AF400BACECA /* UIShadowSearchBar.swift in Sources */,
-				A5C62AE420F5FB290083909D /* UICommentTableViewCell.swift in Sources */,
-				A5C62AD720F52D320083909D /* UIHomeCollectionView.swift in Sources */,
-				A5B0442420EA89B400755F3E /* UICustomTabBarItem.swift in Sources */,
-				A5B0441E20EA49AC00755F3E /* UIContentsCollectionViewCell.swift in Sources */,
-				A5E17D8B20E871FB0059ADBB /* ContentsViewController.swift in Sources */,
-				A5C62AC820F483D10083909D /* UIStreamingView.swift in Sources */,
-				A5C62AD920F54E9D0083909D /* UICircularView.swift in Sources */,
-				A5C62AFA20F7EE980083909D /* UIImageContentCollectionViewCell.swift in Sources */,
-				A5BD29D620F0993200BACECA /* UISelectorHeaderView.swift in Sources */,
-				A5B0444520EB088B00755F3E /* ProfileViewController.swift in Sources */,
-				A5BD29E020F0DDA000BACECA /* UIRoundTextView.swift in Sources */,
-				A5BD29DE20F0D32C00BACECA /* DetailInterpretationViewController.swift in Sources */,
-				A5BD29CE20EE0C9400BACECA /* InterpretationViewController.swift in Sources */,
-				A5C62ADE20F554530083909D /* UIHomeBannerCollectionView.swift in Sources */,
-				A5B0440820E8A1FA00755F3E /* UIImageNavigationItem.swift in Sources */,
-				A5C62AF420F759DF0083909D /* RequestData.swift in Sources */,
-				A5C62AEE20F680800083909D /* LoginService.swift in Sources */,
-				A5B0440A20E8A48C00755F3E /* UIShadowNavigationBar.swift in Sources */,
-				A5BD29C620EDF00D00BACECA /* UIRoundButton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5B0440F20E9869B00755F3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5B0441620E9869B00755F3E /* Bridge_iOSTests.swift in Sources */,
+				A5D3AC502114434E00083152 /* RadioButtonGroup.swift in Sources */,
+				A5ECB2F821138EF0008A18D0 /* AppDelegate.swift in Sources */,
+				A5D3AC492114242600083152 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		A5B0441920E9869B00755F3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A57D503720E7C4B0002967CC /* Bridge-iOS */;
-			targetProxy = A5B0441820E9869B00755F3E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		A57D503F20E7C4B0002967CC /* Main.storyboard */ = {
+		A5ECB2FB21138EF0008A18D0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A57D504020E7C4B0002967CC /* Base */,
+				A5ECB2FC21138EF0008A18D0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A57D504420E7C4B1002967CC /* LaunchScreen.storyboard */ = {
+		A5ECB30021138EF1008A18D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A57D504520E7C4B1002967CC /* Base */,
+				A5ECB30121138EF1008A18D0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -676,7 +206,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A57D504820E7C4B1002967CC /* Debug */ = {
+		A5ECB30421138EF1008A18D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -736,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		A57D504920E7C4B1002967CC /* Release */ = {
+		A5ECB30521138EF1008A18D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -790,140 +320,62 @@
 			};
 			name = Release;
 		};
-		A57D504B20E7C4B1002967CC /* Debug */ = {
+		A5ECB30721138EF1008A18D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CDCE40C714411CFD2989126 /* Pods-Bridge-iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 526389PKKJ;
-				FRAMEWORK_SEARCH_PATHS = (
-					"~/Documents/FacebookSDK",
-					"~/Documents/GoogleSDK",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = "Bridge-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = (
-					"$(OTHER_LDFLAGS)",
-					"-ObjC",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.soptbridge.bridge;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codevillain.Bridge-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A57D504C20E7C4B1002967CC /* Release */ = {
+		A5ECB30821138EF1008A18D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1851FACFB516FE51DDD1CD45 /* Pods-Bridge-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 526389PKKJ;
-				FRAMEWORK_SEARCH_PATHS = (
-					"~/Documents/FacebookSDK",
-					"~/Documents/GoogleSDK",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = "Bridge-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(OTHER_LDFLAGS)",
-					"-ObjC",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.soptbridge.bridge;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codevillain.Bridge-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A5B0441B20E9869B00755F3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 090EF84368FF9594CBE3A593 /* Pods-Bridge-iOSTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 526389PKKJ;
-				INFOPLIST_FILE = "Bridge-iOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codevillain.Bridge-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bridge-iOS.app/Bridge-iOS";
-			};
-			name = Debug;
-		};
-		A5B0441C20E9869B00755F3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5943DB1D8C3F50C80C05881 /* Pods-Bridge-iOSTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 526389PKKJ;
-				INFOPLIST_FILE = "Bridge-iOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codevillain.Bridge-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bridge-iOS.app/Bridge-iOS";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A57D503320E7C4B0002967CC /* Build configuration list for PBXProject "Bridge-iOS" */ = {
+		A5ECB2EF21138EF0008A18D0 /* Build configuration list for PBXProject "Bridge-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A57D504820E7C4B1002967CC /* Debug */,
-				A57D504920E7C4B1002967CC /* Release */,
+				A5ECB30421138EF1008A18D0 /* Debug */,
+				A5ECB30521138EF1008A18D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A57D504A20E7C4B1002967CC /* Build configuration list for PBXNativeTarget "Bridge-iOS" */ = {
+		A5ECB30621138EF1008A18D0 /* Build configuration list for PBXNativeTarget "Bridge-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A57D504B20E7C4B1002967CC /* Debug */,
-				A57D504C20E7C4B1002967CC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A5B0441A20E9869B00755F3E /* Build configuration list for PBXNativeTarget "Bridge-iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5B0441B20E9869B00755F3E /* Debug */,
-				A5B0441C20E9869B00755F3E /* Release */,
+				A5ECB30721138EF1008A18D0 /* Debug */,
+				A5ECB30821138EF1008A18D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A57D503020E7C4B0002967CC /* Project object */;
+	rootObject = A5ECB2EC21138EF0008A18D0 /* Project object */;
 }
