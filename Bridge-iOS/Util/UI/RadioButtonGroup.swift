@@ -12,6 +12,4 @@ class RadioButtonGroup: UIView {
 
     @IBInspectable var selectedColor: UIColor = UIColor.clear
     @IBInspectable var diselectedColor: UIColor = UIColor.clear
-
-    
 }
