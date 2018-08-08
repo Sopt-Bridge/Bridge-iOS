@@ -8,14 +8,13 @@
 
 import UIKit
 
+/// 버튼 눌렀을 때 일어나는일 (색 변경, 볼드 뭐 그런거)
 class RadioButton: UIButton {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
+    @IBInspectable var enableColor: UIColor = UIColor.clear
+    @IBInspectable var disableColor: UIColor = UIColor.clear
+    @IBInspectable var isBold: Bool = false
+    @IBInspectable var isItalic: Bool = false
+    
 }
+
