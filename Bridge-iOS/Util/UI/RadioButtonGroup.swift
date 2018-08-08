@@ -8,8 +8,9 @@
 
 import UIKit
 
+
+/// 라디오 버튼들을 묶고 해당하는 작업만 하기
 class RadioButtonGroup: UIView {
 
-    @IBInspectable var selectedColor: UIColor = UIColor.clear
-    @IBInspectable var diselectedColor: UIColor = UIColor.clear
+    @IBOutlet var radioButtons: [RadioButton] = []
 }
