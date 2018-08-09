@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A5D3AC492114242600083152 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3AC482114242600083152 /* HomeViewController.swift */; };
 		A5D3AC502114434E00083152 /* RadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3AC4F2114434E00083152 /* RadioButtonGroup.swift */; };
+		A5D3AC522119654900083152 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3AC512119654900083152 /* RadioButton.swift */; };
 		A5ECB2F821138EF0008A18D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ECB2F721138EF0008A18D0 /* AppDelegate.swift */; };
 		A5ECB2FD21138EF0008A18D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5ECB2FB21138EF0008A18D0 /* Main.storyboard */; };
 		A5ECB2FF21138EF1008A18D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5ECB2FE21138EF1008A18D0 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		A5D3AC482114242600083152 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A5D3AC4F2114434E00083152 /* RadioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonGroup.swift; sourceTree = "<group>"; };
+		A5D3AC512119654900083152 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		A5ECB2F421138EF0008A18D0 /* Bridge-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bridge-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5ECB2F721138EF0008A18D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5ECB2FC21138EF0008A18D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A52A65EE211B46F10093EE00 /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3AC512119654900083152 /* RadioButton.swift */,
+				A5D3AC4F2114434E00083152 /* RadioButtonGroup.swift */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
 		A5D3AC4A2114242D00083152 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +84,7 @@
 		A5D3AC4E2114433D00083152 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A5D3AC4F2114434E00083152 /* RadioButtonGroup.swift */,
+				A52A65EE211B46F10093EE00 /* RadioButton */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -181,6 +192,7 @@
 				A5D3AC502114434E00083152 /* RadioButtonGroup.swift in Sources */,
 				A5ECB2F821138EF0008A18D0 /* AppDelegate.swift in Sources */,
 				A5D3AC492114242600083152 /* HomeViewController.swift in Sources */,
+				A5D3AC522119654900083152 /* RadioButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
