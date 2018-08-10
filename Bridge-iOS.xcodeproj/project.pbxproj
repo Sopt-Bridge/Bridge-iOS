@@ -14,6 +14,8 @@
 		A5ECB2FD21138EF0008A18D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5ECB2FB21138EF0008A18D0 /* Main.storyboard */; };
 		A5ECB2FF21138EF1008A18D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5ECB2FE21138EF1008A18D0 /* Assets.xcassets */; };
 		A5ECB30221138EF1008A18D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5ECB30021138EF1008A18D0 /* LaunchScreen.storyboard */; };
+		A5FCAB37211C6797001350F1 /* UIShadowNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FCAB36211C6797001350F1 /* UIShadowNavigationBar.swift */; };
+		A5FCAB3A211C9345001350F1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FCAB39211C9345001350F1 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A5ECB2FE21138EF1008A18D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5ECB30121138EF1008A18D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5ECB30321138EF1008A18D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5FCAB36211C6797001350F1 /* UIShadowNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowNavigationBar.swift; sourceTree = "<group>"; };
+		A5FCAB39211C9345001350F1 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 		A5D3AC4D2114431200083152 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				A5FCAB38211C9335001350F1 /* Extension */,
 				A5D3AC4E2114433D00083152 /* UI */,
 			);
 			path = Util;
@@ -84,6 +89,7 @@
 		A5D3AC4E2114433D00083152 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				A5FCAB35211C6770001350F1 /* NavigationBar */,
 				A52A65EE211B46F10093EE00 /* RadioButton */,
 			);
 			path = UI;
@@ -116,6 +122,22 @@
 				A5ECB30321138EF1008A18D0 /* Info.plist */,
 			);
 			path = "Bridge-iOS";
+			sourceTree = "<group>";
+		};
+		A5FCAB35211C6770001350F1 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				A5FCAB36211C6797001350F1 /* UIShadowNavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		A5FCAB38211C9335001350F1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A5FCAB39211C9345001350F1 /* UIColorExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,10 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FCAB37211C6797001350F1 /* UIShadowNavigationBar.swift in Sources */,
 				A5D3AC502114434E00083152 /* RadioButtonGroup.swift in Sources */,
 				A5ECB2F821138EF0008A18D0 /* AppDelegate.swift in Sources */,
 				A5D3AC492114242600083152 /* HomeViewController.swift in Sources */,
 				A5D3AC522119654900083152 /* RadioButton.swift in Sources */,
+				A5FCAB3A211C9345001350F1 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
