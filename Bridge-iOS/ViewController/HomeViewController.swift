@@ -10,6 +10,8 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    let collectionViewIdentifiers: [String] = ["BannerCollectionViewCell"]
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -19,16 +21,33 @@ class HomeViewController: UIViewController {
     }
 }
 
-extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 1
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        if let cell: UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "BannerCell", for: indexPath) {
-            return cell
+        var cell: UICollectionViewCell = UICollectionViewCell()
+        collectionViewIdentifiers.forEach { (identifier) in
+            if let dequeuedCell: UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath)
+                as? UIHomeViewCollectionViewCell {
+                cell = dequeuedCell
+            }
         }
-        return UICollectionViewCell()
+        return cell
+    }
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let screenSize: CGSize = UIScreen.main.bounds.size
+        switch collectionView.distinctIdentifier {
+        case UIBannerCollectionView.distinctIdentifier:
+            var _ = screenSize.width
+
+            return CGSize()
+        default:
+            break
+        }
+        return CGSize.zero
     }
 }
