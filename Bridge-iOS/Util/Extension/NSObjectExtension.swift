@@ -13,4 +13,8 @@ extension NSObject {
     static var distinctIdentifier: String {
         return String(describing: self)
     }
+
+    var distinctIdentifier: String {
+        return String(describing: self)
+    }
 }
