@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5A2348321265C8400C4DDAA /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2348221265C8400C4DDAA /* NSObjectExtension.swift */; };
+		A5A234882128DF0800C4DDAA /* UIHomeViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A234872128DF0800C4DDAA /* UIHomeViewCollectionViewCell.swift */; };
+		A5A2348A2129880900C4DDAA /* UIBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A234892129880900C4DDAA /* UIBannerCollectionViewCell.swift */; };
+		A5A2348C2129977900C4DDAA /* UIBannerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2348B2129977900C4DDAA /* UIBannerCollectionView.swift */; };
 		A5D3AC492114242600083152 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3AC482114242600083152 /* HomeViewController.swift */; };
 		A5D3AC502114434E00083152 /* RadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3AC4F2114434E00083152 /* RadioButtonGroup.swift */; };
 		A5D3AC522119654900083152 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3AC512119654900083152 /* RadioButton.swift */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5A2348221265C8400C4DDAA /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		A5A234872128DF0800C4DDAA /* UIHomeViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHomeViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		A5A234892129880900C4DDAA /* UIBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		A5A2348B2129977900C4DDAA /* UIBannerCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBannerCollectionView.swift; sourceTree = "<group>"; };
 		A5D3AC482114242600083152 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A5D3AC4F2114434E00083152 /* RadioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonGroup.swift; sourceTree = "<group>"; };
 		A5D3AC512119654900083152 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
@@ -50,6 +58,32 @@
 				A5D3AC4F2114434E00083152 /* RadioButtonGroup.swift */,
 			);
 			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		A5A234842128C97E00C4DDAA /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				A5A234852128CC4000C4DDAA /* View */,
+				A5A234862128CC4500C4DDAA /* Cell */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		A5A234852128CC4000C4DDAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2348B2129977900C4DDAA /* UIBannerCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5A234862128CC4500C4DDAA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A5A234872128DF0800C4DDAA /* UIHomeViewCollectionViewCell.swift */,
+				A5A234892129880900C4DDAA /* UIBannerCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		A5D3AC4A2114242D00083152 /* ViewController */ = {
@@ -89,6 +123,7 @@
 		A5D3AC4E2114433D00083152 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				A5A234842128C97E00C4DDAA /* CollectionView */,
 				A5FCAB35211C6770001350F1 /* NavigationBar */,
 				A52A65EE211B46F10093EE00 /* RadioButton */,
 			);
@@ -136,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				A5FCAB39211C9345001350F1 /* UIColorExtension.swift */,
+				A5A2348221265C8400C4DDAA /* NSObjectExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -214,8 +250,12 @@
 				A5FCAB37211C6797001350F1 /* UIShadowNavigationBar.swift in Sources */,
 				A5D3AC502114434E00083152 /* RadioButtonGroup.swift in Sources */,
 				A5ECB2F821138EF0008A18D0 /* AppDelegate.swift in Sources */,
+				A5A2348321265C8400C4DDAA /* NSObjectExtension.swift in Sources */,
+				A5A2348C2129977900C4DDAA /* UIBannerCollectionView.swift in Sources */,
+				A5A234882128DF0800C4DDAA /* UIHomeViewCollectionViewCell.swift in Sources */,
 				A5D3AC492114242600083152 /* HomeViewController.swift in Sources */,
 				A5D3AC522119654900083152 /* RadioButton.swift in Sources */,
+				A5A2348A2129880900C4DDAA /* UIBannerCollectionViewCell.swift in Sources */,
 				A5FCAB3A211C9345001350F1 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
