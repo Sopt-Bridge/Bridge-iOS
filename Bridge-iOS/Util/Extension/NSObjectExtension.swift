@@ -15,6 +15,6 @@ extension NSObject {
     }
 
     var distinctIdentifier: String {
-        return String(describing: self)
+        return String(describing: type(of: self))
     }
 }
