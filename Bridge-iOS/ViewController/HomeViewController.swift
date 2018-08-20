@@ -41,10 +41,10 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let screenSize: CGSize = UIScreen.main.bounds.size
         switch collectionView.distinctIdentifier {
-        case UIBannerCollectionView.distinctIdentifier:
-            var _ = screenSize.width
-
-            return CGSize()
+        case UICollectionView.distinctIdentifier:
+            let height = screenSize.width / 176
+//            return CGSize(width: screenSize.width, height: height)
+            return CGSize(width: 375, height: 176)
         default:
             break
         }
